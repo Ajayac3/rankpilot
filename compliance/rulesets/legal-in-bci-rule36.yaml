@@ -1,0 +1,26 @@
+# Compliance ruleset: Indian advocates under Bar Council of India Rule 36.
+# This is the NRI tenant's ruleset; other verticals select a different one.
+id: legal-in-bci-rule36
+label: Bar Council of India — Rule 36 (no advertising/solicitation)
+prohibited:
+  - best lawyer
+  - best law firm
+  - best advocate
+  - best in india
+  - "#1 lawyer"
+  - number one lawyer
+  - top lawyer
+  - top law firm
+  - rated #1
+  - highest-rated lawyer
+  - leading lawyer
+  - award-winning
+  - award winning
+  - guaranteed results
+  - guaranteed outcome
+  - win guarantee
+  - 100% win
+  - success rate
+  - no win no fee
+  - proven track record
+  - most experienced lawyer

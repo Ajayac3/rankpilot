@@ -1,0 +1,50 @@
+# RankPilot site profile: a made-up law firm, used as the sample tenant.
+# All names, addresses and contact details below are fictional.
+name: Example Legal Firm
+domain: example-legal.in
+gsc_property: https://example-legal.in/
+compliance_ruleset: legal-in-bci-rule36
+
+firm_info:
+  name: Example Legal Firm
+  email: info@example-legal.in
+  phone: "+1-415-555-0100"
+  address:
+    streetAddress: 1 Example Street
+    addressLocality: Delhi
+    addressRegion: Delhi
+    postalCode: "110001"
+    addressCountry: IN
+  geo: {latitude: 28.6139, longitude: 77.2090}
+  serviceAreas: [India, USA, Canada, United Kingdom, UAE, Australia, Singapore, New Zealand]
+  barCouncil: Example Bar Council
+
+knows_about: [NRI Property Law, NRI Criminal Law, NRI Family Law, Power of Attorney, OCI Card, FIR Quashing, 498A Defence]
+
+advocates:
+  - name: Adv. A. Example
+    url: https://example-legal.in/our-team/
+    description: Founder specialising in NRI legal matters
+    credential: Advocate, Example High Court
+  - name: Adv. B. Example
+    url: https://example-legal.in/our-team/
+    description: Partner specialising in NRI criminal law
+    credential: Advocate, Example High Court
+
+services:
+  - {slug: nri-property-dispute-lawyer, name: NRI Property Dispute Legal Services, desc: "Legal assistance for NRIs with property encroachment, possession delays, title disputes"}
+  - {slug: nri-divorce-lawyer-india, name: NRI Divorce Legal Services, desc: "Divorce proceedings and foreign decree recognition for NRIs"}
+  - {slug: power-of-attorney-nri-india, name: NRI Power of Attorney Services, desc: "Drafting and registration of Power of Attorney for NRI property transactions"}
+
+competitors:
+  - {domain: competitor-one.example, sitemap: https://competitor-one.example/sitemap.xml}
+  - {domain: competitor-two.example, sitemap: https://competitor-two.example/sitemap.xml}
+
+local_targets:
+  - [New Delhi, India, IN]
+  - [London, United Kingdom, GB]
+  - [Dubai, United Arab Emirates, AE]
+
+community_sources: [NRI, IndianImmigrants, LegalAdviceIndia]
+
+seed_keywords: profiles/example-legal/seed_keywords.csv

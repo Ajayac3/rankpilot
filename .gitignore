@@ -1,0 +1,19 @@
+# Secrets & credentials — NEVER commit
+.env
+.env.*
+oauth_token.json
+oauth_client.json
+*.json          # oauth tokens, api dumps, indexnow state — none belong in VCS
+
+# Runtime data (db, reports, logs, caches)
+data/
+*.db
+*.log
+
+# Build / env / cache
+.venv/
+__pycache__/
+*.pyc
+.claude/
+.DS_Store
+node_modules/

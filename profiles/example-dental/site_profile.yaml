@@ -1,0 +1,44 @@
+# Throwaway second-vertical profile that PROVES the engine is generic: a different
+# domain, industry, geography and compliance ruleset, with zero NRI/legal data.
+# Run anything with SITE_PROFILE=example-dental to exercise it.
+name: BrightSmile Dental Studio
+domain: brightsmiledental.example
+gsc_property: https://brightsmiledental.example/
+compliance_ruleset: generic
+
+firm_info:
+  name: BrightSmile Dental Studio
+  email: hello@brightsmiledental.example
+  phone: "+1-415-555-0142"
+  address:
+    streetAddress: 500 Market Street, Suite 12
+    addressLocality: San Francisco
+    addressRegion: CA
+    postalCode: "94105"
+    addressCountry: US
+  geo: {latitude: 37.7919, longitude: -122.3994}
+  serviceAreas: [San Francisco, Oakland, Berkeley]
+  barCouncil: ""
+
+knows_about: [Cosmetic Dentistry, Dental Implants, Teeth Whitening, Orthodontics, Root Canal]
+
+advocates:
+  - name: Dr. Maria Chen
+    url: https://brightsmiledental.example/team/
+    description: Lead dentist, cosmetic and restorative dentistry
+    credential: DDS, California Dental Board
+
+services:
+  - {slug: dental-implants, name: Dental Implant Services, desc: "Single and full-arch dental implants"}
+  - {slug: teeth-whitening, name: Teeth Whitening, desc: "In-office and take-home whitening"}
+  - {slug: invisalign, name: Clear Aligners, desc: "Invisalign and clear-aligner orthodontics"}
+
+competitors:
+  - {domain: competitor-dental-a.example, sitemap: https://competitor-dental-a.example/sitemap.xml}
+
+local_targets:
+  - [San Francisco, United States, US]
+
+community_sources: [askdentists, Dentistry]
+
+seed_keywords: profiles/example-dental/seed_keywords.csv

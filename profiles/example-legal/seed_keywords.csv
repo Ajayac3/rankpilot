@@ -1,0 +1,5 @@
+keyword,country,cluster,intent,priority
+nri property lawyer,IN,property,commercial,1
+nri property lawyer,US,property,commercial,1
+power of attorney for nri,GB,poa,informational,2
+nri divorce lawyer india,CA,family,commercial,2

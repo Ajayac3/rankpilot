@@ -1,0 +1,9 @@
+# Generic compliance ruleset for verticals with no special advertising regulator.
+# Still blocks the most obviously false/absolute superlatives (broadly risky claims).
+id: generic
+label: Generic — avoid unverifiable absolute claims
+prohibited:
+  - guaranteed results
+  - 100% guaranteed
+  - best in the world
+  - number one in the world
